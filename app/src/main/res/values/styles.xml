@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- dando estilo al boton-->
+    <style name="MiBotonRaised" parent="Theme.AppCompat.Light">
+        <!-- Cuando el boton esta normal -->
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <!--  Cuando el boton este presionado-->
+        <item name="colorControlHighlight">@color/colorWhite</item>
+        <!-- Color del texto del boton -->
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+</resources>
